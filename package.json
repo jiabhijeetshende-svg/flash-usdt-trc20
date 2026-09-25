@@ -1,0 +1,30 @@
+{
+  "name": "flash-usdt-trc20",
+  "version": "1.0.0",
+  "description": "Flash USDT - TRC20 token on TRON network",
+  "main": "index.js",
+  "scripts": {
+    "test": "truffle test",
+    "migrate": "truffle migrate --network tronShasta",
+    "migrate-mainnet": "truffle migrate --network tronMainnet",
+    "console": "truffle console --network tronShasta",
+    "deploy": "node scripts/deploy.js"
+  },
+  "keywords": [
+    "tron",
+    "trc20",
+    "usdt",
+    "token",
+    "smart-contract"
+  ],
+  "author": "Flash USDT Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "^2.1.0",
+    "truffle": "^5.8.0",
+    "dotenv": "^16.0.3"
+  },
+  "dependencies": {
+    "web3": "^1.10.0"
+  }
+}
